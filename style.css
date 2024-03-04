@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ul,ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.container {
+    max-width: 1200px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.page-text {
+    text-align: center;
+    font-size: 45px;
+    margin: 50px 0;
+}
+
+.input-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.todo-input {
+    width: 80%;
+    padding: 10px 16px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #3333;
+    position: relative;
+    z-index: 99;
+}
+
+.add-todo-btn {
+    width: 20%;
+    background-color: #03af03;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 0 8px 8px 0;
+    transition: all .2s ease-in;
+}
+
+.add-todo-btn:hover {
+    opacity: .85;
+}
+
+.general-options {
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+    border: 1px solid #3333;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.filters button {
+    font-size: 18px;
+}
+
+.filters button.active {
+    color: #0077b6;
+}
+
+.delete-all-btn {
+    font-size: 15px;
+    color: #fff;
+    background-color: #ff0000;
+    padding: 12px 17px;
+    border-radius: 12px;
+    transition: all .2s ease-in;
+}
+
+.delete-all-btn:hover {
+    opacity: .85;
+}
+
+.todo-list {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-item {
+    border-bottom: 1px solid #3333;
+    border-right: 1px solid #3333;
+    border-left: 1px solid #3333;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.todo-input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.todo-item .todo-check {
+    cursor: pointer;
+    outline: none;
+    width: 17px;
+    height: 17px;
+}
+
+.todo-item .todo-label {
+    font-size: 24px;
+}
+
+.todo-item .todo-label.checked {
+    text-decoration: line-through;
+    color: #ff0000;
+}
+
+.todo-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.todo-options button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.todo-options button:hover {
+    opacity: 0.8;
+}
+
+.empty-list-warning {
+    font-size: 30px;
+    color: #ff0000;
+    margin: 80px 0;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .todo-input {
+        width: 75%;
+    }
+
+    .add-todo-btn {
+        width: 25%;
+    }
+
+    .general-options {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .delete-all-btn {
+        width: 100%;
+    }
+
+    .todo-input-wrapper {
+        column-gap: 10px;
+    }
+
+    .todo-check {
+        width: 15px !important;
+        height: 15px !important;
+    }
+
+    .todo-label {
+        font-size: 20px !important;
+    }
+
+    .todo-options button {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+
+    .page-text {
+        font-size: 40px;
+        margin: 40px 0;
+    }
+
+    .container {
+        max-width: 675px;
+    }
+
+    .input-wrapper {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    
+    .todo-input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .add-todo-btn {
+        width: 100%;
+        padding: 10px 16px;
+        font-size: 16px;
+        border-radius: 0;
+    }
+
+    .todo-input-wrapper {
+        column-gap: 8px;
+    }
+
+    .todo-check {
+        width: 13px !important;
+        height: 13px !important;
+    }
+
+    .todo-label {
+        font-size: 19px !important;
+        margin-bottom: 4px;
+    }
+
+    .todo-options button {
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width:550px){
+    .container {
+        max-width: 550px;
+    }
+
+    .filters {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .todo-item {
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: start;
+    }
+
+    .todo-options {
+        margin: 10px auto 0 auto;
+    }
+
+    .todo-input-wrapper {
+        column-gap: 12px;
+    }
+
+    .todo-label {
+        margin: 0 !important;
+    }
+
+    .todo-check {
+        width: 16px !important;
+        height: 16px !important;
+    }
+}
