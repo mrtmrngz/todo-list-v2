@@ -1,6 +1,6 @@
 ## Todo List V2
 
-<h1>I made new Todo List using with `html`, `css`, `js`</h1>
+I made new Todo List using with `html`, `css`, `js`
 
 #Contents
 
