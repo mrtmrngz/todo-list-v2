@@ -1,15 +1,15 @@
 # Todo List V2
 
-I made new Todo List using with `html`, `css`, `js`. <br>
-There is localstorage in this todo list
+I made new Todo List using with `html`, `css`, `js`. <br><br>
+There is `localstorage` in this todo list. <br><br>
 
 ## Contents
 
--Edit Todo <br>
--Delete Todo <br>
--Delete All Todos <br>
--Status => 1- All(All todos), 2- Pending(Waiting For Completed), 3-Completed(Completed Todos) <br>
--Chanage Status <br>
+-Edit Todo <br><br>
+-Delete Todo <br><br>
+-Delete All Todos <br><br>
+-Status => 1- All(All todos), 2- Pending(Waiting For Completed), 3-Completed(Completed Todos) <br><br>
+-Chanage Status <br><br>
 
 ## Demo
 
