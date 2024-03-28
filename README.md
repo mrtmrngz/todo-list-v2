@@ -1,6 +1,7 @@
 # Todo List V2
 
-I made new Todo List using with `html`, `css`, `js`
+I made new Todo List using with `html`, `css`, `js`. <br>
+There is localstorage in this todo list
 
 ## Contents
 
