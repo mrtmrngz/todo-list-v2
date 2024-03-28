@@ -13,7 +13,7 @@ There is `localstorage` in this todo list. <br><br>
 
 ## Demo
 
-<h2>https://todo-list-v2-locale-storage.netlify.app/</h2> <br><br><br>
+https://todo-list-v2-locale-storage.netlify.app/ <br><br>
 
 ## Site Images
 
